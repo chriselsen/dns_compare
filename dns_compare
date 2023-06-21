@@ -143,6 +143,15 @@ if __name__ == '__main__':
         else:
             if not opts.verbose:
                 sys.stdout.write('X')
+                print "\n(MIS-MATCH) query: %s" % name
+                if result != None and len(result) > 1:
+                    print "Expected:"
+                    print rdataset
+                    print "Received: "
+                    print result
+                else:
+                    print "Expected: ", rdataset
+                    print "Received: ", result
                 print("\n(MIS-MATCH) query: %s" % name)
                 print(" Expected: ", rdataset)
                 print(" Received: ", result)
