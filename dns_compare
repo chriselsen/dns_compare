@@ -159,6 +159,8 @@ if __name__ == '__main__':
             mismatches += 1
     print("done")
 
-    print("\nResults:")
-    print("Matches:     ", matches)
-    print("Mis-matches: ", mismatches)
+    print "\nResults:"
+    print "Matches:       ", matches
+    if opts.lookup_cnames and cnamematches > 0:
+        print "CName-matches: ", cnamematches
+    print "Mis-matches:   ", mismatches
