@@ -75,7 +75,7 @@ TODO:
 -----
 - Print separate count of NXDOMAIN in results?
 
-Author
+Authors
 ------
-Joe Miller (http://github.com/joemiller) (http://joemiller.me) (https://twitter.com/miller_joe)
-Christian Elsen
+- [Joe Miller](http://github.com/joemiller)
+- [Christian Elsen](https://github.com/chriselsen/)
