@@ -20,10 +20,13 @@ properly imported into Route53 before changing the whois records for each domain
 UPDATED (7/11/2013): Cleaned up the script and output a bit and refactored a few things while migrating
 a set of domains from Ziergo to Dyn.
 
+UPDATED (6/20/2023): Added support for Python3
+
 Installation
 ------------
 
-    pip install git+http://github.com/joemiller/dns_compare.git#egg=dns_compare
+    pip install dnspython
+    pip install git+http://github.com/chriselsen/dns_compare.git#egg=dns_compare
 
 
 Example Usage:
@@ -75,3 +78,4 @@ TODO:
 Author
 ------
 Joe Miller (http://github.com/joemiller) (http://joemiller.me) (https://twitter.com/miller_joe)
+Christian Elsen
