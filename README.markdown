@@ -25,8 +25,8 @@ UPDATED (6/20/2023): Added support for Python3
 Installation
 ------------
 
-    pip install dnspython
-    pip install git+http://github.com/chriselsen/dns_compare.git#egg=dns_compare
+    pip3 install dnspython
+    pip3 install git+http://github.com/chriselsen/dns_compare.git#egg=dns_compare
 
 
 Example Usage:
