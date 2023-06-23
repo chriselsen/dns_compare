@@ -9,16 +9,13 @@ the data in a zone file.
 
 Motivation
 ----------
-It is very helpful when migrating from one DNS server to another to be able to
+It is very helpful when migrating from one DNS provider or server to another to be able to
 verify that all records imported correctly.
 
 In my case, I used this tool to help me migrate multiple domains from
-Windows 2000 DNS and GoDaddy DNS (which both export BIND zone files) into Amazon's
-Route53 DNS service.  With this tool, I could confidently prove that all records
-properly imported into Route53 before changing the whois records for each domain.
-
-UPDATED (7/11/2013): Cleaned up the script and output a bit and refactored a few things while migrating
-a set of domains from Ziergo to Dyn.
+Google Domains (which export BIND zone files) into Amazon Route 53 DNS service.  
+With this tool, I could confidently prove that all records properly imported into Route 53
+before changing the whois records for each domain.
 
 UPDATED (6/20/2023): Added support for Python3
 
