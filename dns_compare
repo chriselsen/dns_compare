@@ -93,7 +93,7 @@ if __name__ == '__main__':
         match = False
         result = None
         try:
-            ans = r.query(name, rdataset.rdtype, rdataset.rdclass)
+            ans = r.resolve(name, rdataset.rdtype, rdataset.rdclass)
             result = ans.rrset.to_rdataset()
             if result == rdataset:
                 if opts.compare_ttl:
