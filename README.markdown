@@ -26,6 +26,11 @@ Installation
     pip3 install git+http://github.com/chriselsen/dns_compare.git#egg=dns_compare
 
 
+AWS CloudShell
+--------------
+This tool can be used with [AWS CloudShell](https://aws.amazon.com/cloudshell/). Just follow the above instructions under *Installation*.  
+You can quickly and easily upload our zone file in BIND format to AWS CloudShell via **Action -> Upload file**. 
+
 Example Usage:
 --------------
 Basic operation:
