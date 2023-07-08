@@ -1,14 +1,19 @@
-dns_compare.py
-==============
+# dns_compare.py
+
 Compare data from a BIND zone file to data returned by an authoritative DNS server.
 
-Purpose
--------
+**If you enjoy this work, please consider sponsoring:**
+
+[![Buy Me A Coffee](https://github.com/chriselsen/chriselsen/blob/66c14d7ac5b6dd09d833c94d7ace9f55e00ab71d/buymeacoffee.png)](https://www.buymeacoffee.com/chriselsen)
+[![Support via PayPal](https://cdn.jsdelivr.net/gh/twolfson/paypal-github-button@1.0.0/dist/button.svg)](https://www.paypal.me/christianelsen)
+
+## Purpose
+
 Use this tool to verify the data being returned by an authoritative DNS server matches
 the data in a zone file.
 
-Motivation
-----------
+## Motivation
+
 It is very helpful when migrating from one DNS provider or server to another to be able to
 verify that all records imported correctly.
 
@@ -19,20 +24,20 @@ before changing the whois records for each domain.
 
 UPDATED (6/20/2023): Added support for Python3
 
-Installation
-------------
+## Installation
+
 
     pip3 install dnspython
     pip3 install git+http://github.com/chriselsen/dns_compare.git#egg=dns_compare
 
 
-AWS CloudShell
---------------
+## AWS CloudShell
+
 This tool can be used with [AWS CloudShell](https://aws.amazon.com/cloudshell/). Just follow the above instructions under *Installation*.  
 You can quickly and easily upload our zone file in BIND format to AWS CloudShell via **Action -> Upload file**. 
 
-Example Usage:
---------------
+## Example Usage
+
 Basic operation:
 
     $ dns_compare -z example.com --file example.com.zone --server 10.1.1.1
@@ -73,11 +78,11 @@ respectively, to enable checking of SOA and NS records.
 Comparing TTLs can be disabled with `-t` option. This is useful when transferring DNS to a provider
 that offers only specific TTL values.
 
-TODO:
------
+## TODO
+
 - Print separate count of NXDOMAIN in results?
 
-Authors
-------
+## Authors
+
 - [Joe Miller](http://github.com/joemiller)
 - [Christian Elsen](https://github.com/chriselsen/)
