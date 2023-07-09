@@ -4,8 +4,9 @@ Compare data from a BIND zone file to data returned by an authoritative DNS serv
 
 **If you enjoy this work, please consider sponsoring:**
 
-[![Buy Me A Coffee](https://github.com/chriselsen/chriselsen/blob/66c14d7ac5b6dd09d833c94d7ace9f55e00ab71d/buymeacoffee.png)](https://www.buymeacoffee.com/chriselsen)
-[![Support via PayPal](https://cdn.jsdelivr.net/gh/twolfson/paypal-github-button@1.0.0/dist/button.svg)](https://www.paypal.me/christianelsen)
+[![Buy Me A Coffee](https://raw.githubusercontent.com/chriselsen/chriselsen/main/buymeacoffee.png)](https://www.buymeacoffee.com/chriselsen)
+[![Support via PayPal](https://raw.githubusercontent.com/chriselsen/chriselsen/main/paypal-donate.png)](https://www.paypal.me/christianelsen)
+[![Sponsor on Github](https://raw.githubusercontent.com/chriselsen/chriselsen/main/github-sponsor.png)](https://github.com/sponsors/chriselsen)
 
 ## Purpose
 
